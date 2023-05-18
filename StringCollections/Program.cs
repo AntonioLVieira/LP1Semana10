@@ -11,6 +11,8 @@ namespace StringCollections
             list.Add("Olá");
             list.Add("Adeus");
             list.Add("Oi");
+            list.Add("Oi");
+            list.Add("BomDia");
 
             Console.WriteLine("Lista: ");
             foreach (string item in list)
@@ -21,9 +23,11 @@ namespace StringCollections
             Console.WriteLine();
 
             Stack<string> stack = new Stack<string>();
-            stack.Push("gato");
-            stack.Push("sapo");
-            stack.Push("águia");
+            stack.Push("Olá");
+            stack.Push("Adeus");
+            stack.Push("Oi");
+            stack.Push("Oi");
+            stack.Push("BomDia");
 
             Console.WriteLine("Stack: ");
             while (stack.Count > 0)
@@ -35,9 +39,11 @@ namespace StringCollections
             Console.WriteLine();
 
             Queue<string> queue = new Queue<string>();
-            queue.Enqueue("salamandra");
-            queue.Enqueue("gaivota");
-            queue.Enqueue("raposa");
+            queue.Enqueue("Olá");
+            queue.Enqueue("Adeus");
+            queue.Enqueue("Oi");
+            queue.Enqueue("Oi");
+            queue.Enqueue("BomDia");
 
             Console.WriteLine("Queue: ");
             while (queue.Count > 0)
@@ -49,9 +55,11 @@ namespace StringCollections
             Console.WriteLine();
 
             HashSet<string> hashSet = new HashSet<string>();
-            hashSet.Add("elefante");
-            hashSet.Add("girafa");
-            hashSet.Add("golfinho");
+            hashSet.Add("Olá");
+            hashSet.Add("Adeus");
+            hashSet.Add("Oi");
+            hashSet.Add("Oi");
+            hashSet.Add("BomDia");
 
             Console.WriteLine("HashSet: ");
             foreach (string item in hashSet)
